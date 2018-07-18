@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: Gameplay;
+	src:url(Gameplay.ttf);
+}
+
+
+.container{
+	height: 100vh;
+}
+
+nav{
+	height: 10%;
+	background-color: #f4f2f2;
+}
+
+.total{
+	background-image: url(../girlvr.jpg);
+	background-size: cover;
+	height: 90%;
+	width: 100%;
+}
+
+.content{
+	width: 800px;
+	position: relative;
+	height: 100%;
+	right: 200px;
+	background-color: rgb(126,87,194,0.9);
+	transform: skew(20deg);
+	-ms-transform: skew(20deg);
+	-webkit-transform: skew(20deg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 2em;
+	transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-webkit-transform: skew(-20deg);
+	font-family: 'Gameplay', sans-serif;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	color: white;
+	margin-bottom: 0px;
+
+}
+
+h2{
+	display: flex;
+	justify-content: flex-end;
+	width: 25em;
+	position: relative;
+	left: 12em;
+	transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-webkit-transform: skew(-20deg);
+	font-family:'Roboto', sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+}
+
+.verMas{
+	transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-webkit-transform: skew(-20deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;	
+	position: relative;
+	left: 7em;
+	background-color: transparent;
+	border-style: none;
+	font-size: 90px;
+	margin-top: 40px;
+}
+
+.verMas:hover{
+	background-color: white;
+	color: #7e57c2;
+}
+
+.font{
+	font-size: 20px;
+}
+
+.scrollDown{
+	font-size: 6em;
+	position: relative;
+	left: 4em;
+	border-radius: 50%;
+	transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-webkit-transform: skew(-20deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border-color: white;
+	width: 1.5em;
+	height: 1.5em;
+	color: white;
+}
+
+
